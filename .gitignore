@@ -1,4 +1,3 @@
-
 server/apache/logs/access.log
 server/apache/logs/error.log
 server/install/install.sys
