@@ -7142,7 +7142,6 @@ $cache = array (
       ),
       'local' => 
       array (
-        'message' => 'C:\\moodle-1-carls-plugin-example\\server\\moodle/local/message/lib.php',
       ),
       'h5plib' => 
       array (
