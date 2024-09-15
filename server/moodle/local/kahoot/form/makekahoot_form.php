@@ -21,6 +21,7 @@ class makekahoot_form extends moodleform {
 
     // Validation hvis nødvendigt
     function validation($data, $files) {
-        return array();  // Tilføj eventuel valideringslogik
+        return array();  // Den gør ingenting pt.
+        
     }
 }
