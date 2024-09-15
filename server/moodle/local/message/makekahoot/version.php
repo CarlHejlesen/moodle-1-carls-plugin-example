@@ -24,6 +24,7 @@
  defined('MOODLE_INTERNAL') || die();
 
  $plugin->component = 'local_makekahoot';
+
  $plugin->version  = 2023102800;
 $plugin->release = '4.8.2 (2023102800)';
 $plugin->requires = 2022111800;

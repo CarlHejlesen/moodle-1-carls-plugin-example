@@ -22,10 +22,10 @@
  */
 
 
-function local_message_extend_navigation(\global_navigation $nav) {
+ function local_makekahoot_extend_navigation(global_navigation $nav) {
     global $PAGE;
-    // Dette sikrer, at AMD-modulet "local_message/myfile" kaldes, når siden indlæses
+    // Her er din logik for at tilføje JS til siden
     $PAGE->requires->js_call_amd('local_makekahoot/myfile', 'init');
-
 }
+
 
