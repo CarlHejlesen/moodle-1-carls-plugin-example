@@ -397,3 +397,84 @@ sl:warn] [pid 22936:tid 472] AH01909: www.example.com:443:0 server certificate d
 [Sun Sep 15 10:51:00.223887 2024] [ssl:warn] [pid 23676:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Sep 15 10:51:00.245886 2024] [ssl:warn] [pid 23676:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Sep 15 10:51:00.271887 2024] [mpm_winnt:notice] [pid 23676:tid 444] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 15 11:11:41.415380 2024] [mpm_winnt:notice] [pid 13288:tid 464] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 15 11:11:43.429102 2024] [mpm_winnt:notice] [pid 23676:tid 444] AH00364: Child: All worker threads have exited.
+[Sun Sep 15 11:11:43.464057 2024] [mpm_winnt:notice] [pid 13288:tid 464] AH00430: Parent: Child process 23676 exited successfully.
+[Sun Sep 15 11:12:10.032895 2024] [ssl:warn] [pid 27264:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:12:10.055894 2024] [ssl:warn] [pid 27264:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:12:10.081894 2024] [mpm_winnt:notice] [pid 27264:tid 464] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Sep 15 11:12:10.081894 2024] [mpm_winnt:notice] [pid 27264:tid 464] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Sep 15 11:12:10.081894 2024] [core:notice] [pid 27264:tid 464] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/moodle-1-carls-plugin-example/server/apache -f conf\\httpd.conf'
+[Sun Sep 15 11:12:10.084894 2024] [mpm_winnt:notice] [pid 27264:tid 464] AH00418: Parent: Created child process 30536
+[Sun Sep 15 11:12:10.324904 2024] [ssl:warn] [pid 30536:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:12:10.346903 2024] [ssl:warn] [pid 30536:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:12:10.372905 2024] [mpm_winnt:notice] [pid 30536:tid 464] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 15 11:42:16.807068 2024] [mpm_winnt:notice] [pid 27264:tid 464] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 15 11:42:46.821711 2024] [mpm_winnt:notice] [pid 27264:tid 464] AH00431: Parent: Forcing termination of child process 30536
+[Sun Sep 15 11:42:52.716610 2024] [ssl:warn] [pid 4424:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:42:52.741610 2024] [ssl:warn] [pid 4424:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:42:52.766610 2024] [mpm_winnt:notice] [pid 4424:tid 452] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Sep 15 11:42:52.766610 2024] [mpm_winnt:notice] [pid 4424:tid 452] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Sep 15 11:42:52.766610 2024] [core:notice] [pid 4424:tid 452] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/moodle-1-carls-plugin-example/server/apache -f conf\\httpd.conf'
+[Sun Sep 15 11:42:52.770610 2024] [mpm_winnt:notice] [pid 4424:tid 452] AH00418: Parent: Created child process 20216
+[Sun Sep 15 11:42:53.010810 2024] [ssl:warn] [pid 20216:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:42:53.035812 2024] [ssl:warn] [pid 20216:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 11:42:53.063814 2024] [mpm_winnt:notice] [pid 20216:tid 448] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 15 11:45:35.797678 2024] [php:notice] [pid 20216:tid 1892] [client ::1:63359] Default exception handler: XML database file errors found Debug: Errors found in XMLDB file: Missing TABLES section\r\nError code: ddlxmlfileerror\n* line 354 of \\lib\\ddl\\database_manager.php: ddl_exception thrown\n* line 370 of \\lib\\ddl\\database_manager.php: call to database_manager->load_xmldb_file()\n* line 723 of \\lib\\upgradelib.php: call to database_manager->install_from_xmldb_file()\n* line 1931 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 719 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=0&confirmupgrade=1
+[Sun Sep 15 12:12:39.881958 2024] [php:notice] [pid 20216:tid 1876] [client ::1:65401] Default exception handler: XML database file errors found Debug: Errors found in XMLDB file: Missing TABLES section\r\nError code: ddlxmlfileerror\n* line 354 of \\lib\\ddl\\database_manager.php: ddl_exception thrown\n* line 370 of \\lib\\ddl\\database_manager.php: call to database_manager->load_xmldb_file()\n* line 723 of \\lib\\upgradelib.php: call to database_manager->install_from_xmldb_file()\n* line 1931 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 719 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=0&confirmupgrade=1
+[Sun Sep 15 12:12:41.116957 2024] [php:warn] [pid 20216:tid 1884] [client ::1:65402] PHP Warning:  rename(C:\\moodle-1-carls-plugin-example\\server\\moodledata/cache/cachestore_file/default_application/core_config/faa-cache/.66e6b3191ab310.38817439.temp,C:\\moodle-1-carls-plugin-example\\server\\moodledata/cache/cachestore_file/default_application/core_config/faa-cache/faa94afdae20c8af3942f3f9945a71b8916dccd0.cache): Access is denied (code: 5) in C:\\moodle-1-carls-plugin-example\\server\\moodle\\cache\\stores\\file\\lib.php on line 868, referer: http://localhost/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=1
+[Sun Sep 15 12:13:32.653812 2024] [php:notice] [pid 20216:tid 1884] [client ::1:65457] Default exception handler: XML database file errors found Debug: Errors found in XMLDB file: Missing TABLES section\r\nError code: ddlxmlfileerror\n* line 354 of \\lib\\ddl\\database_manager.php: ddl_exception thrown\n* line 370 of \\lib\\ddl\\database_manager.php: call to database_manager->load_xmldb_file()\n* line 723 of \\lib\\upgradelib.php: call to database_manager->install_from_xmldb_file()\n* line 1931 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 719 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=0&confirmupgrade=1
+[Sun Sep 15 12:15:12.255194 2024] [php:notice] [pid 20216:tid 1876] [client ::1:49292] Default exception handler: XML database file errors found Debug: Errors found in XMLDB file: Missing TABLES section\r\nError code: ddlxmlfileerror\n* line 354 of \\lib\\ddl\\database_manager.php: ddl_exception thrown\n* line 370 of \\lib\\ddl\\database_manager.php: call to database_manager->load_xmldb_file()\n* line 723 of \\lib\\upgradelib.php: call to database_manager->install_from_xmldb_file()\n* line 1931 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 719 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=0&showallplugins=1
+[Sun Sep 15 12:15:13.581192 2024] [php:warn] [pid 20216:tid 1892] [client ::1:49302] PHP Warning:  rename(C:\\moodle-1-carls-plugin-example\\server\\moodledata/cache/cachestore_file/default_application/core_config/faa-cache/.66e6b3b18bd652.74655334.temp,C:\\moodle-1-carls-plugin-example\\server\\moodledata/cache/cachestore_file/default_application/core_config/faa-cache/faa94afdae20c8af3942f3f9945a71b8916dccd0.cache): Access is denied (code: 5) in C:\\moodle-1-carls-plugin-example\\server\\moodle\\cache\\stores\\file\\lib.php on line 868, referer: http://localhost/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=1
+[Sun Sep 15 12:22:36.714056 2024] [mpm_winnt:notice] [pid 4424:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 15 12:22:38.734060 2024] [mpm_winnt:notice] [pid 20216:tid 448] AH00364: Child: All worker threads have exited.
+[Sun Sep 15 12:22:38.774055 2024] [mpm_winnt:notice] [pid 4424:tid 452] AH00430: Parent: Child process 20216 exited successfully.
+[Sun Sep 15 12:22:53.456005 2024] [ssl:warn] [pid 19820:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:22:53.481007 2024] [ssl:warn] [pid 19820:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:22:53.506005 2024] [mpm_winnt:notice] [pid 19820:tid 456] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Sep 15 12:22:53.506005 2024] [mpm_winnt:notice] [pid 19820:tid 456] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Sep 15 12:22:53.506005 2024] [core:notice] [pid 19820:tid 456] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/moodle-1-carls-plugin-example/server/apache -f conf\\httpd.conf'
+[Sun Sep 15 12:22:53.509006 2024] [mpm_winnt:notice] [pid 19820:tid 456] AH00418: Parent: Created child process 27316
+[Sun Sep 15 12:22:53.751045 2024] [ssl:warn] [pid 27316:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:22:53.774046 2024] [ssl:warn] [pid 27316:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:22:53.800046 2024] [mpm_winnt:notice] [pid 27316:tid 460] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 15 12:37:30.530295 2024] [php:error] [pid 27316:tid 1924] [client ::1:51148] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:37:41.735977 2024] [mpm_winnt:notice] [pid 19820:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 15 12:38:11.742913 2024] [mpm_winnt:notice] [pid 19820:tid 456] AH00431: Parent: Forcing termination of child process 27316
+[Sun Sep 15 12:41:44.859012 2024] [ssl:warn] [pid 9072:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:41:44.883013 2024] [ssl:warn] [pid 9072:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:41:44.907012 2024] [mpm_winnt:notice] [pid 9072:tid 468] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Sep 15 12:41:44.907012 2024] [mpm_winnt:notice] [pid 9072:tid 468] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Sep 15 12:41:44.907012 2024] [core:notice] [pid 9072:tid 468] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/moodle-1-carls-plugin-example/server/apache -f conf\\httpd.conf'
+[Sun Sep 15 12:41:44.911014 2024] [mpm_winnt:notice] [pid 9072:tid 468] AH00418: Parent: Created child process 4472
+[Sun Sep 15 12:41:45.150013 2024] [ssl:warn] [pid 4472:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:41:45.172013 2024] [ssl:warn] [pid 4472:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 12:41:45.198013 2024] [mpm_winnt:notice] [pid 4472:tid 476] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 15 12:41:52.717448 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:53.382518 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:53.769886 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:54.075745 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:57.878122 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:58.294139 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:58.582837 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:59.042118 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:41:59.198687 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:42:03.115991 2024] [php:error] [pid 4472:tid 1900] [client ::1:51344] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:43:00.620864 2024] [php:error] [pid 4472:tid 1896] [client ::1:51428] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 12:44:10.242038 2024] [mpm_winnt:notice] [pid 9072:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 15 12:44:24.480153 2024] [mpm_winnt:notice] [pid 4472:tid 476] AH00364: Child: All worker threads have exited.
+[Sun Sep 15 12:44:24.520153 2024] [mpm_winnt:notice] [pid 9072:tid 468] AH00430: Parent: Child process 4472 exited successfully.
+[Sun Sep 15 15:51:42.281091 2024] [ssl:warn] [pid 6528:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 15:51:42.306091 2024] [ssl:warn] [pid 6528:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 15:51:42.707708 2024] [mpm_winnt:notice] [pid 6528:tid 460] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Sep 15 15:51:42.707708 2024] [mpm_winnt:notice] [pid 6528:tid 460] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Sep 15 15:51:42.707708 2024] [core:notice] [pid 6528:tid 460] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/moodle-1-carls-plugin-example/server/apache -f conf\\httpd.conf'
+[Sun Sep 15 15:51:42.711708 2024] [mpm_winnt:notice] [pid 6528:tid 460] AH00418: Parent: Created child process 31944
+[Sun Sep 15 15:51:42.949708 2024] [ssl:warn] [pid 31944:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 15:51:42.973708 2024] [ssl:warn] [pid 31944:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 15 15:51:42.999709 2024] [mpm_winnt:notice] [pid 31944:tid 504] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 15 15:51:48.020194 2024] [php:error] [pid 31944:tid 1924] [client ::1:63017] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 15:51:54.051142 2024] [php:error] [pid 31944:tid 1908] [client ::1:63018] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 15:51:55.033221 2024] [php:error] [pid 31944:tid 1908] [client ::1:63018] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat
+[Sun Sep 15 15:54:16.414543 2024] [php:error] [pid 31944:tid 1924] [client ::1:63122] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoott.php' not found or unable to stat
+[Sun Sep 15 15:55:02.162470 2024] [php:error] [pid 31944:tid 1908] [client ::1:63162] script 'C:/moodle-1-carls-plugin-example/server/moodle/local/kahoot/viewkahoot.php' not found or unable to stat

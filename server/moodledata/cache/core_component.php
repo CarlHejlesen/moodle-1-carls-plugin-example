@@ -592,7 +592,7 @@ $cache = array (
     'local' => 
     array (
       'adminer' => 'C:\\moodle-1-carls-plugin-example\\server\\moodle/local/adminer',
-      'message' => 'C:\\moodle-1-carls-plugin-example\\server\\moodle/local/message',
+      'kahoot' => 'C:\\moodle-1-carls-plugin-example\\server\\moodle/local/kahoot',
     ),
     'h5plib' => 
     array (
@@ -7142,6 +7142,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'kahoot' => 'C:\\moodle-1-carls-plugin-example\\server\\moodle/local/kahoot/lib.php',
       ),
       'h5plib' => 
       array (
